@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Awesome Website</title>
     <style type="text/css" media="all">
-      p {
-        color: red;
+
+      .pull-quote p {
+        color: blue;
       }
+
+      .pull-quote .key { 
+        font-style: italic; 
+      }
+      
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
   </head>
@@ -28,15 +34,19 @@
         <header>
           <h2>Article 1 Heading</h2>
         </header>
+        <div class="pull-quote">
         <p>Here is my first paragraph</p>
-        <p>Here is my second</p>
+        <p class="key">Here is my second</p>
+        </div>
       </article>
       <article>
         <header>
           <h2>Article 2 Heading</h2>
         </header>
+        <div class="pull-quote">
         <p>Here is my third paragraph</p>
         <p>Here is my fourth</p>
+        </div>
       </article>
     </main>
     <footer>
